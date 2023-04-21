@@ -114,6 +114,9 @@ img .logo{
     height: 600px;
 }
 /* Banner */
+#content-banner{
+    margin: 50px auto;
+}
 .banner-item{
     position: relative;
 }
@@ -124,8 +127,13 @@ img .logo{
 .banner-center {
     position: absolute;
     top: 50%;
-    left: 20%;
-    color: #fff; 
+    left: 25%;
+    color: yellow; 
     display: block;
     text-align: center;
+}
+.banner-center h3,
+.banner-center h5{
+    font-size: 20px;
+    font-weight: bold;
 }
