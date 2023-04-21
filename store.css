@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+}
+
+
+/* Header */
+.header-top{
+    background-color: black;
+    color: #fff;
+    height: 35px;
+}
+.icon-fanpage>.fanpage{
+    display: flex;
+    margin: 0;
+    margin-left: 20px;
+    text-align: center;
+   
+}
+.fanpage li a .bi{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+}
+.header-center{
+    height: 78px;
+}
+img .logo{
+    width: 100%;
+}
+.search{
+    width: 80%;
+    display: flex;
+}
+#btn-search-product{
+    width: 120px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+}
+.input-search{
+    height: 40px;
+    width: 100%;
+    border: 1px solid #ebebeb;
+}
+#icon-search{
+    height:40px;
+    background-color: black;
+    color: #fff;
+}
+#header-cart {
+    font-size: 45px;
+    color: darkgray;
+}
+#icon-cart{
+    margin-top: 13%;
+    margin-left: 13px;
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: 100;
+}
+        /* header bootom */
+.header-bottom{
+    background-color: #e73635;
+}
+.navbar-nav li a.nav-link{
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nav-item{
+    padding: 0 10px;
+    margin: 0 10px;
+}
+.nav-item:hover .nav-link{
+
+    color: #151514 !important;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    list-style: none;
+    top: 51px;
+    border: 1px solid beige;
+   
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ a.dropdown-item{
+    color: #151514;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.sub-menu{
+    margin: 10px 20px 10px 0;
+}
+
+/* SlideShow */
+
+.Slide-img img{
+    width: 100%;
+    height: 600px;
+}
+/* Banner */
+.banner-item{
+    position: relative;
+}
+#banner-img{
+    width: 100%;
+    height: 280px;
+}
+.banner-center {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    color: #fff; 
+    display: block;
+    text-align: center;
+}
